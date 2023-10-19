@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-10-19T08:10:16.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="GCgQFSCbTRHnxwTC8SOE" version="22.0.5" type="github">
+  <diagram name="Страница — 1" id="LNBiJtPJpXExKSqU8ra7">
+    <mxGraphModel dx="1158" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fwTSwum-v5MIOWfUatc--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmandOne;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="fwTSwum-v5MIOWfUatc--1" target="fwTSwum-v5MIOWfUatc--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Додаток&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="555" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="fwTSwum-v5MIOWfUatc--2" target="fwTSwum-v5MIOWfUatc--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--2" value="Стрічка новин" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="555" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--4" value="Новина" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="fwTSwum-v5MIOWfUatc--6" target="fwTSwum-v5MIOWfUatc--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--6" value="Автор" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="fwTSwum-v5MIOWfUatc--8" target="fwTSwum-v5MIOWfUatc--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--8" value="Тема" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="410" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="fwTSwum-v5MIOWfUatc--10" target="fwTSwum-v5MIOWfUatc--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--10" value="Назва" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="fwTSwum-v5MIOWfUatc--12" target="fwTSwum-v5MIOWfUatc--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--12" value="Зміст" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--14" value="&lt;h1&gt;Бд для додатку новин&lt;/h1&gt;&lt;p&gt;1) Додаток він може бути один&amp;nbsp;&lt;/p&gt;&lt;p&gt;2) Стрічка новин, їх може бути безліч, наприклад до кожної події&amp;nbsp;&lt;/p&gt;&lt;p&gt;3) Новина, їх повинно бути багато, її атрибути: автор(тільки один, але він може стровити безліч новин),&lt;/p&gt;&lt;p&gt;тема(тем може бути багато та вони можуть підходити під різні новини),&amp;nbsp;&lt;/p&gt;&lt;p&gt;назва(має бути унікальною, може бути одна і тількі для однієї новини)&lt;/p&gt;&lt;p&gt;зміст, також унікальний&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="660" width="290" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="fwTSwum-v5MIOWfUatc--15" value="&lt;h1&gt;AkaNews&lt;/h1&gt;&lt;p&gt;Ми компанія, яка збирає авторські новини від користувачів на будь-які теми.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="780" width="370" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
